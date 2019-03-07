@@ -69,23 +69,71 @@
 		4B16FC09222ED08C00DDEB62 /* FinancialUIkit */ = {
 			isa = PBXGroup;
 			children = (
-				4B16FC0A222ED08C00DDEB62 /* AppDelegate.h */,
-				4B16FC0B222ED08C00DDEB62 /* AppDelegate.m */,
-				4B16FC0D222ED08C00DDEB62 /* ViewController.h */,
-				4B16FC0E222ED08C00DDEB62 /* ViewController.m */,
-				4B16FC10222ED08C00DDEB62 /* Main.storyboard */,
+				AE671CE72230FFCD00C677C1 /* Helper Class */,
+				AE671CE62230FFC700C677C1 /* Model */,
+				AE671CE52230FFAD00C677C1 /* View Controllers */,
+				AE671CE42230FFA400C677C1 /* UI */,
+				AE671CE32230FF9D00C677C1 /* Data */,
+				AE671CE22230FF8D00C677C1 /* BundleFiles */,
 				4B14D7F22230C43300DF8742 /* login.png */,
 				4B14D7F42230E5FE00DF8742 /* login1.png */,
 				4B14D7F62230EA2100DF8742 /* fb.png */,
 				4B14D7F72230EA2100DF8742 /* gplus.png */,
-				4B16FC13222ED08C00DDEB62 /* Assets.xcassets */,
-				4B16FC15222ED08C00DDEB62 /* LaunchScreen.storyboard */,
-				4B16FC18222ED08C00DDEB62 /* Info.plist */,
-				4B16FC19222ED08C00DDEB62 /* main.m */,
-				4B14D7FA2230F1A900DF8742 /* SignupViewController.h */,
-				4B14D7FB2230F1A900DF8742 /* SignupViewController.m */,
 			);
 			path = FinancialUIkit;
+			sourceTree = "<group>";
+		};
+		AE671CE22230FF8D00C677C1 /* BundleFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4B16FC19222ED08C00DDEB62 /* main.m */,
+				4B16FC13222ED08C00DDEB62 /* Assets.xcassets */,
+				4B16FC0A222ED08C00DDEB62 /* AppDelegate.h */,
+				4B16FC0B222ED08C00DDEB62 /* AppDelegate.m */,
+			);
+			path = BundleFiles;
+			sourceTree = "<group>";
+		};
+		AE671CE32230FF9D00C677C1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4B16FC18222ED08C00DDEB62 /* Info.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AE671CE42230FFA400C677C1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4B16FC15222ED08C00DDEB62 /* LaunchScreen.storyboard */,
+				4B16FC10222ED08C00DDEB62 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AE671CE52230FFAD00C677C1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B14D7FA2230F1A900DF8742 /* SignupViewController.h */,
+				4B14D7FB2230F1A900DF8742 /* SignupViewController.m */,
+				4B16FC0D222ED08C00DDEB62 /* ViewController.h */,
+				4B16FC0E222ED08C00DDEB62 /* ViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AE671CE62230FFC700C677C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE671CE72230FFCD00C677C1 /* Helper Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Helper Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
