@@ -9,6 +9,8 @@
 #import "SignupViewController.h"
 
 @interface SignupViewController ()
+@interface SignupViewController () {
+    
 
 @end
 
